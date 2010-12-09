@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(.+\.inc\.(php|html))$ error/403/$1
+	RewriteRule ^error/(\d\d\d)/(.+)$ index.php?page=error&errorType=$1&pageRequest=$2 [L]
+	RewriteRule ^([a-zA-Z0-9_]*)(/)?$ index.php?page=$1 [L]
+	RewriteRule ^/$ index.php [L]
+</IfModule>

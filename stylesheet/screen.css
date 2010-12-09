@@ -1,0 +1,52 @@
+/* Default Rules Overrides */
+html, body { padding:0; margin:0; font-family: Helvetica, Verdana, Arial, sans-serif; }
+body { line-height: 24px; }
+img { border: 0; }
+ul { list-style: none; padding: 0; margin: 0; }
+
+/* Header Rules */
+header > h1 { width: 960px; margin: 0 auto; margin: 12px auto; }
+
+/* Nav rules */
+nav { height: 50px; margin-bottom: 1.5em; background: url('images/navBG.png'); }
+nav > ul { list-style: none; padding: 0; margin: 0 auto; width: 960px; }
+nav li { float: left; }
+nav a { background: url("images/navSprite.png"); display: block; height: 50px; margin: 0; padding: 0;	width: 160px;	text-indent: -1000px; }
+.nav-home > a { background-position: 0 0; }
+.nav-home > a:hover { background-position: 0 -51px }
+.nav-home > a:active { background-position: 0 -102px }
+.nav-home.nav-current > a, a:hover, a:active { background-position: 0 -153px; }
+.nav-skills > a {	background-position: -160px 0; }
+.nav-skills > a:hover { background-position: -160px -51px; }
+.nav-skills > a:active { background-position: -160px -102px; }
+.nav-skills.nav-current > a, a:hover, a:active { background-position: -160px -153px; }
+.nav-about > a { background-position: -320px 0; }
+.nav-about > a:hover { background-position: -320px -51px; }
+.nav-about > a:active { background-position: -320px -102px; }
+.nav-about.nav-current > a, a:hover, a:active { background-position: -320px -153px; }
+
+/* Wrapper */
+#wrapper { padding: 10px 0; margin: 0 auto; margin-bottom: 1em; width: 960px; border: 3px solid black; border-radius: 8px; -moz-border-radius: 8px; }
+
+/* Grid Layout Rules */
+.grid1 { padding: 0; margin: 0; margin-left: 10px; margin-right: 10px; width: 140px; border: 0px solid black; float: left; }
+.grid2 { padding: 0; margin: 0; margin-left: 10px; margin-right: 10px; width: 300px; border: 0px solid black; float: left; }
+.grid3 { padding: 0; margin: 0; margin-left: 10px; margin-right: 10px; width: 460px; border: 0px solid black; float: left; }
+.grid4 { padding: 0; margin: 0; margin-left: 10px; margin-right: 10px; width: 620px; border: 0px solid black; float: left; }
+.grid5 { padding: 0; margin: 0; margin-left: 10px; margin-right: 10px; width: 780px; border: 0px solid black; float: left; }
+.grid6 { padding: 0; margin: 0; margin-left: 10px; margin-right: 10px; width: 940px; border: 0px solid black; float: left; }
+
+/* Content rules */
+#content section { display: none; }
+#content > section.selected { display: block; }
+#content img { float: right; margin-left:20px; }
+#content p { text-align: justify; }
+
+/* Thumbnail Rules */
+#thumbs > .grid1 { clear: right; float: right; }
+.thumb { cursor: pointer; }
+.thumb img { width: 140px; height: 106px; }
+
+/* Footer Rules */
+footer { clear: both; border-top: 1px solid black; }
+small.grid6 { float: none; }
