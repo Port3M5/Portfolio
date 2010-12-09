@@ -12,9 +12,13 @@
   <![endif]-->
   <script src="<?php echo ROOT; ?>js/jquery-1.4.3.min.js"></script>
   <script src="<?php echo ROOT; ?>js/grid.js"></script>
+  <script type="text/javascript" src="<?php echo ROOT; ?>js/prototype.js"></script>
+	<script type="text/javascript" src="<?php echo ROOT; ?>js/scriptaculous.js?load=effects,builder"></script>
+	<script type="text/javascript" src="<?php echo ROOT; ?>js/lightbox.js"></script>
   <style>article, aside, figure, footer, header, hgroup,
 menu, nav, section { display: block; }</style>
   <link type="text/css" rel="stylesheet" media="screen and (min-device-width: 481px)" href="<?php echo ROOT; ?>stylesheet/screen.css">
   <link type="text/css" rel="stylesheet" media="only screen and (max-device-width: 480px)" href="<?php echo ROOT; ?>stylesheet/handheld.css">
   <link type="text/css" rel="stylesheet" media="handheld" href="<?php echo ROOT; ?>stylesheet/handheld.css">
+  <link rel="stylesheet" href="<?php echo ROOT; ?>stylesheet/lightbox.css" type="text/css" media="screen" />
 </head>
